@@ -7,3 +7,17 @@ The modern Olympic Games or Olympics are leading international sporting events f
 Before I even started searching online, I already had an idea in my head about the data that I wanted to play with <i>d3 + Graph Theory + Olympics</i>; all medal winners since the very first Olympic Games in 1896. Thankfully the Guardian had created exactly [this dataset](https://www.theguardian.com/sport/datablog/2012/jun/25/olympic-medal-winner-list-data) right before the 2012 Olympics in London, because there wasn't any other place that had the data as nicely structured as the one from the Guardian (The Olympic site itself is quite a hassle where you have to select the edition, sport and event before you see any results).
 
 Then I "only" needed to add the results for 2012 and create a dummy start for all of the events at 2016 that I could then start filling in while the games are being held. Again the Guardian helped out by supplying [a dataset](https://www.theguardian.com/sport/datablog/2012/aug/10/olympics-2012-list-medal-winners) with all of the medallists from 2012.
+
+### Raw Data Preparation
+I have collected the "2012 Summer Olympics medal winners" data.
+
+The 2012 Summer Olympics, formally the Games of the XXX Olympiad and commonly known as London 2012, was a major international multi-sport event celebrated in the tradition of the Olympic Games, as governed by the International Olympic Committee (IOC). It took place in London and to a lesser extent across the United Kingdom from 25 July to 12 August 2012.
+
+| Motto	| Inspire a Generation |
+| ---- | ---- |
+| Nations participating	| 204 |
+| Athletes participating | 10,768 (5,992 men, 4,776 women) |
+| Events | 302 in 26 sports |
+| Opening ceremony | 27 July |
+| Closing ceremony | 12 August |
+| Officially opened by | Queen Elizabeth II |
