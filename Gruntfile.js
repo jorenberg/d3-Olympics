@@ -42,3 +42,4 @@ var okay  = chalk.blue;
 
 // Global variables
 // ~~~~~~~~~~~~~~~~
+var rootPath = './';
