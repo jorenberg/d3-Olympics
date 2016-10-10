@@ -39,3 +39,6 @@ var path  = require('path');
 var noop  = chalk.red;
 var yeep  = chalk.green;
 var okay  = chalk.blue;
+
+// Global variables
+// ~~~~~~~~~~~~~~~~
