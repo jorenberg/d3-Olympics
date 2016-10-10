@@ -46,3 +46,4 @@ var rootPath = './';
 
 // Pass encoding, utf8, so `readFileSync` will return a string instead of a buffer.
 var settings = fs.readFileSync('./source/core/scss/settings.json', 'utf8');
+var dataPath = fs.readFileSync('./pub/data/tank/olympics-feathers-data-expanded.json', 'utf8');
