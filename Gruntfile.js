@@ -33,3 +33,4 @@
 var chalk = require('chalk');
 // load required Node module.
 var fs    = require('fs');
+var path  = require('path');
