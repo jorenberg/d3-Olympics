@@ -21,3 +21,8 @@ The 2012 Summer Olympics, formally the Games of the XXX Olympiad and commonly kn
 | Opening ceremony | 27 July |
 | Closing ceremony | 12 August |
 | Officially opened by | Queen Elizabeth II |
+
+<br/>
+<b>Missing medals in the 2012 dataset</b>
+<br/><br/>
+Thinking I had two nice datasets I started by combining them. I decided to make two choices to downsize the data to something more manageable; only look at the gold medal winners, and for teams (such as basketball) to lose the separate team members' names. In essence to make it unique on each Olympic edition - sporting discipline - gender - event - winner. While working through the 2012 dataset I started to notice that it did not contain all the medal winners, many team games such as hockey were missing, but also many diving medals weren't in there. These descrepancies forced me to check each and every of the 41 disciplines to see if my dataset contained the same number of medals as the number of events held at London. Due to the number of missing medals, I decided to strip the Guardian data down to the gold medal winners and add missing athlete names / teams and countries, not focusing on the silver or bronze medals.
