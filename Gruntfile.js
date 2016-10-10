@@ -49,3 +49,4 @@ var settings = fs.readFileSync('./source/core/scss/settings.json', 'utf8');
 var dataPath = fs.readFileSync('./pub/data/tank/olympics-feathers-data-expanded.json', 'utf8');
 
 var pkg      = require('./package.json');
+var tag      = ['/*!', pkg.name, pkg.version, pkg.author, '*/\n'].join(' ');
