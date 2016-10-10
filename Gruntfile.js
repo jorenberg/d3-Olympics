@@ -43,3 +43,6 @@ var okay  = chalk.blue;
 // Global variables
 // ~~~~~~~~~~~~~~~~
 var rootPath = './';
+
+// Pass encoding, utf8, so `readFileSync` will return a string instead of a buffer.
+var settings = fs.readFileSync('./source/core/scss/settings.json', 'utf8');
