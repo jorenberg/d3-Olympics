@@ -1,1 +1,4 @@
 ## d3-Olympics
+
+### About Olympics
+The modern Olympic Games or Olympics are leading international sporting events featuring summer and winter sports competitions in which thousands of athletes from around the world participate in a variety of competitions. Their creation was inspired by the ancient Olympic Games, which were held in Olympia, Greece, from the 8th century BC to the 4th century AD. The Olympic Games are considered the world's foremost sports competition with more than 200 nations participating. Baron Pierre de Coubertin founded the International Olympic Committee (IOC) in 1894. The IOC is the governing body of the Olympic Movement, with the Olympic Charter defining its structure and authority. The Olympic Games are held every four years, with the Summer and Winter Games alternating by occurring every four years but two years apart.<br/><br/>HomePage: https://www.olympic.org/.
