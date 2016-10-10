@@ -56,3 +56,4 @@ var tag      = ['/*!', pkg.name, pkg.version, pkg.author, '*/\n'].join(' ');
 // ----------------------------------------------------------------------------
 
 module.exports = function(grunt) {
+  'use strict';
