@@ -31,3 +31,5 @@
 
 // load required NPM modules.
 var chalk = require('chalk');
+// load required Node module.
+var fs    = require('fs');
