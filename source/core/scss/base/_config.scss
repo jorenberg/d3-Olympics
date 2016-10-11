@@ -10,3 +10,6 @@ $axix-root-font-size:                                                  1.144em !
 // 1.1 Heading: <h1> to <h2>
 $axix-olympics-font-size-h1:             floor(($axix-root-font-size * 1.645)) !default;
 $axix-olympics-font-size-h2:             floor(($axix-root-font-size * 1.308)) !default;
+// 1.2 Line Height
+$axix-base-line-height:                                            1.428571429 !default; // [20/14]
+$axix-line-height-computed: floor(($axix-base-font-size * $axix-base-line-height)) !default; // ~20px
