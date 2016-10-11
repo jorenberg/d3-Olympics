@@ -13,3 +13,15 @@ $axix-olympics-font-size-h2:             floor(($axix-root-font-size * 1.308)) !
 // 1.2 Line Height
 $axix-base-line-height:                                            1.428571429 !default; // [20/14]
 $axix-line-height-computed: floor(($axix-base-font-size * $axix-base-line-height)) !default; // ~20px
+
+// 2. Colors ==//==
+$axix-brand-olympics-white-color-hex:                                  #FFFFFF !default;
+$axix-brand-olympics-white-color-rgb:                         rgb(255,255,255) !default;
+$axix-brand-olympics-gold-color-hex:                                   #FFD800 !default;
+$axix-brand-olympics-gold-color-rgb:                            rgb(255,216,0) !default;
+$axix-brand-olympics-goldenrod-color-hex:                              #DAA520 !default;
+$axix-brand-olympics-goldenrod-color-rgb:                      rgb(218,165,32) !default;
+$axix-brand-olympics-silver-color-hex:                                 #C0C0C0 !default;
+$axix-brand-olympics-silver-color-rgb:                        rgb(192,192,192) !default;
+$axix-brand-olympics-bronze-color-hex:                                 #CD8032 !default;
+$axix-brand-olympics-bronze-color-rgb:                         rgb(205,128,50) !default;
