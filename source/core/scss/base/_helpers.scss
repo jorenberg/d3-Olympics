@@ -103,3 +103,15 @@ $browser-context: 16;
   }
   @return $pixels / $context * 1em;
 }
+
+// 10. d3-Olympics - Mixin helper to output vendor prefixes.
+// @param {String} $property - Unprefixed CSS property
+// @param {*} $value - Raw CSS value
+// @param {List} $prefixes - List of prefixes to output
+
+@mixin prefix($property, $value, $prefixes: ()) {
+  @each $prefix in $prefixes {
+    -#{$prefix}-#{$property}: $value;
+  }
+  #{$property}: $value;
+}
