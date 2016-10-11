@@ -7,3 +7,6 @@ $axix-base-font-family-sans-serif:              quote("Open Sans"), sans-serif !
 // 1.0 Base Font Size
 $axix-base-font-size:                                                  0.875em !default; // 14px
 $axix-root-font-size:                                                  1.144em !default; // 16px
+// 1.1 Heading: <h1> to <h2>
+$axix-olympics-font-size-h1:             floor(($axix-root-font-size * 1.645)) !default;
+$axix-olympics-font-size-h2:             floor(($axix-root-font-size * 1.308)) !default;
