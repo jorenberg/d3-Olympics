@@ -71,3 +71,9 @@
   #{$property}: -moz-calc(#{$value});
   #{$property}: calc(#{$value});
 }
+
+// 7. d3-Olympics - The @function directive to strip unit.
+
+@function strip-unit($value) {
+  @return $value / ($value * 0 + 1);
+}
