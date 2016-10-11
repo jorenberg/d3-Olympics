@@ -31,3 +31,14 @@
      -moz-box-sizing: $boxmodel;
           box-sizing: $boxmodel;
 }
+
+// 3. d3-Olympics Opacity: Cross Browser
+
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  // IE8 filter
+  $opacity-IE: ($opacity * 100);
+  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=$opacity-IE)';
+  // IE 5-7
+  filter: alpha(opacity=$opacity-IE);
+}
