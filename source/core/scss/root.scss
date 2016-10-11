@@ -26,3 +26,13 @@
 @import "base/config";
 // 02. settings and mixin helpers.
 @import "base/helpers";
+// ---------------------------------- //
+// Using The :root CSS pseudo-class   //
+// It matches the root element of a tree representing the document.
+// Applied to HTML, :root represents the <html> element and is identical
+// to the selector html, except that its specificity is higher.
+// --------------------------------------------------------------------- //
+:root {
+  background: $axix-brand-olympics-color-rgb;
+  color: $axix-brand-olympics-white-color-rgb;
+}
