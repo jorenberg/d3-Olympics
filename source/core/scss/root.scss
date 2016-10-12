@@ -169,3 +169,16 @@ $axix-body-antialiased: true !default;
     height: 0;
   }
 }
+
+// 1. Universal Selector
+// ----------------------
+// An asterisk (*) is the universal selector for CSS.
+// It matches a single element of any type.
+/// Note: Omitting the asterisk with simple selectors has the same effect.
+/// Set box-sizing globally to handle padding and border widths.
+/// ----------------------------------------------------------------------
+*,
+*::before,
+*::after {
+  @include box-sizing(border-box);
+}
