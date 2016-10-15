@@ -195,3 +195,9 @@ html {
   /* for some Androids */
   -webkit-tap-highlight-color: transparent;
 }
+
+// 3. Root - HTML + Body element
+// -----------------------------
+html, body {
+  height: 100%;
+}
