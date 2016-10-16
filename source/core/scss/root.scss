@@ -201,3 +201,23 @@ html {
 html, body {
   height: 100%;
 }
+
+body {
+  background: var(--dark);
+  font-family: $axix-base-font-family;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+       -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -moz-osx-font-smoothing: grayscale;
+}
