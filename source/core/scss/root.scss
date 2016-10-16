@@ -221,3 +221,13 @@ body {
           justify-content: center;
   -moz-osx-font-smoothing: grayscale;
 }
+
+// 4. Selection(s)
+// ---------------
+::-moz-selection {
+  @include axix-selection (#624642, #FFD800);
+}
+
+::selection {
+  @include axix-selection (#624642, #FFD800);
+}
