@@ -168,3 +168,5 @@ module.exports = function(grunt) {
         src: ['app/en/assets/style/**/*.css']
       }
     },
+    // To update '.csslintrc' list, run this:
+    // node -e "require('csslint').CSSLint.getRules().forEach(function(x) { console.log(x.id) })"
