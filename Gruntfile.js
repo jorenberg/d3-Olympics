@@ -196,3 +196,13 @@ module.exports = function(grunt) {
         }
       }
     },
+    // 4. Data --> 4.2 Minify
+    // ~~~~~~~~~~~~~~~~~~~~~~
+    minjson: {
+      compile: {
+        files: {
+          // minify only one json data file.
+          'pub/data/gold/olympics-feathers-data-expanded.min.json': 'pub/data/tank/olympics-feathers-data-expanded.json'
+        }
+      }
+    },
