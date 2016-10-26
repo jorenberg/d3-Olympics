@@ -1,7 +1,7 @@
 {
   "doctype-first": true,
   "doctype-html5": true,
-  "attr-lowercase": true,
+  "attr-lowercase": false,
   "attr-value-double-quotes": true,
   "attr-value-not-empty": true,
   "attr-no-duplication": true,
@@ -20,6 +20,6 @@
   "space-tab-mixed-disabled": true,
   "tagname-lowercase": true,
   "tag-pair": true,
-  "tag-self-close": true,
+  "tag-self-close": false,
   "title-require": true
 }
