@@ -184,3 +184,15 @@ module.exports = function(grunt) {
         }
       }
     },
+    // 4. Data --> 4.1 Lint
+    // ~~~~~~~~~~~~~~~~~~~~
+    jsonlint: {
+      all: {
+        src: ['pub/data/tank/olympics-feathers-data-expanded.json', 'pub/data/tank/olympics-feathers-data-collapsed.json'],
+        options: {
+          formatter: 'prose',
+          format: true,
+          indent: 2
+        }
+      }
+    },
