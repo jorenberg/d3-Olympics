@@ -127,3 +127,25 @@ module.exports = function(grunt) {
         ]
       }
     },
+    // 2. Compass + Sass
+    // ~~~~~~~~~~~~~~~~~
+    compass: {
+      // T:1
+      dist: {
+        options: {
+          config: 'config.rb',
+          environment: 'production',
+          raw: 'preferred_syntax = :sass\n' // Use `raw` since it's not directly available.
+        }
+      },
+      // T:2
+      dev: {
+        options: {
+          assetCacheBuster: true,
+          fontsPath: rootPath + 'source/core/font',
+          sassDir: rootPath + 'source/core/scss',
+          cssDir: rootPath + 'app/en/assets/style',
+          sourcemap: true
+        }
+      }
+    },
