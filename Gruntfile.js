@@ -179,8 +179,8 @@ module.exports = function(grunt) {
       },
       target: {
         files: {
-          'build/en/assets/style/root.min.css': ['app/en/assets/style/font.css', 'app/en/assets/style/root.css'],
-          'build/en/assets/style/main.min.css': ['app/en/assets/style/font.css', 'app/en/assets/style/main.css'],
+          'build/app/en/assets/style/root.min.css': ['app/en/assets/style/font.css', 'app/en/assets/style/root.css'],
+          'build/app/en/assets/style/main.min.css': ['app/en/assets/style/font.css', 'app/en/assets/style/main.css'],
         }
       }
     },
