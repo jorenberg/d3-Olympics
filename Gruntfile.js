@@ -233,3 +233,20 @@ module.exports = function(grunt) {
         '!node_modules/**/*.js' // ignores node_modules.
       ]
     },
+    // 5. JavaScript --> 5.2 Concat
+    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    concat: {
+      dist: {
+        options: {
+          // Replace all 'use strict' statements in the code with a single one at the top.
+          banner: "'use strict';\n",
+          process: function(src, filepath) {
+            return '// Source: ' + filepath + '\n' + src.replace(/(^|\n)[ \t]*('use strict'|"use strict");?\s*/g, '$1');
+          }
+        },
+        files: {
+          // compiled.js for — intermediate work.
+          './index.compiled.js': ['./source/core/script/**/*.js'],
+        }
+      }
+    },
