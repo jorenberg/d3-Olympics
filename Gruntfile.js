@@ -250,3 +250,19 @@ module.exports = function(grunt) {
         }
       }
     },
+    // 5. JavaScript --> 5.3 Minify
+    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    uglify: {
+      options: {
+        banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' + '<%= grunt.template.today("yyyy-mm-dd") %> */'
+      },
+      my_target: {
+        options: {
+          sourceMap: true,
+          sourceMapName: './app/en/assets/script/index.js.map'
+        },
+        files: {
+          './build/app/en/assets/script/index.min.js': ['./index.compiled.js']
+        }
+      }
+    },
